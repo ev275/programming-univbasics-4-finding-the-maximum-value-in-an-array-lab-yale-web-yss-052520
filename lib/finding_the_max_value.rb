@@ -8,5 +8,5 @@ def find_max_value(array)
     end
     count += 1
   end
-  puts max_value
+  max_value
 end
