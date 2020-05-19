@@ -3,9 +3,9 @@ def find_max_value(array)
   count = 0
   while array[count] do
     if array[count] > array[count + 1]
-      array[count] = max_value
+      max_value = array[count]
     else
-      array[count + 1] = max_value
+      max_value = array[count.to_i + 1]
     end
     count += 1
   end
